@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-const Btn = styled.button`
+const StBtn = styled.button`
     width: 40px;
 `;
 
-export const BtnPrimary = styled(Btn)`
+export const StBtnPrimary = styled(StBtn)`
     background-color: #bb2121;
     color: white;
 `;

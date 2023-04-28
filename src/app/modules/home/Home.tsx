@@ -1,54 +1,51 @@
 import Jumbotron from "../../components/jumbotron/Jumbotron";
-import { CardContainer, CardItem, HomeSection, SectionSubTitle, SectionTitle, SectionContainer, TitleContainer, SectionText } from "./Home.style";
+import { StCardContainer, StCardItem, StHomeSection, StSectionSubTitle, StSectionTitle, StSectionContainer, StTitleContainer, StSectionText } from "./Home.style";
 
 
 const Home = (props: any) => (
     <>
         <Jumbotron />
-        <HomeSection>
-            <SectionContainer>
-                <TitleContainer>
-                    <SectionTitle>
-                        Little bit about me
-                    </SectionTitle>
-                </TitleContainer>
-                <SectionText>
-                    I am Praveen Balaji S, a Full Stack Developer with 3+ years of experience in Web and Mobile App Development.
+        <StHomeSection>
+            <StSectionContainer>
+                <StTitleContainer>
+                    <StSectionTitle>
+                        About me
+                    </StSectionTitle>
+                </StTitleContainer>
+                <StSectionText>
+                    Hello. I am Praveen Balaji, a Full Stack Developer with 3+ years of experience in Web and Mobile App Development.
                     My area of expertise lies in building enterprise applications that are scalable, responsive and dynamic.
                     I am well-versed in Angular, ReactJs, NodeJs, SQL (PostgreSQL, MySQL and MS Server).
-                </SectionText>
-                <SectionText>
-                    This SPA is built using ReactJs, Styled-Components
-                </SectionText>
-            </SectionContainer>
-            <SectionContainer>
-                <TitleContainer>
-                    <SectionTitle>
+                </StSectionText>
+            </StSectionContainer>
+            <StSectionContainer>
+                <StTitleContainer>
+                    <StSectionTitle>
                         Welcome to the Playground
-                    </SectionTitle>
-                    <SectionSubTitle>
+                    </StSectionTitle>
+                    <StSectionSubTitle>
                         Select one of the apps to play with
-                    </SectionSubTitle>
-                </TitleContainer>
-                <CardContainer>
-                    <CardItem>
+                    </StSectionSubTitle>
+                </StTitleContainer>
+                <StCardContainer>
+                    <StCardItem>
                         To do lists
-                    </CardItem>
-                    <CardItem>
+                    </StCardItem>
+                    <StCardItem>
                         To do lists
-                    </CardItem>
-                    <CardItem>
+                    </StCardItem>
+                    <StCardItem>
                         To do lists
-                    </CardItem>
-                    <CardItem>
+                    </StCardItem>
+                    <StCardItem>
                         To do lists
-                    </CardItem>
-                    <CardItem>
+                    </StCardItem>
+                    <StCardItem>
                         Messenger - kafka
-                    </CardItem>
-                </CardContainer>
-            </SectionContainer>
-        </HomeSection>
+                    </StCardItem>
+                </StCardContainer>
+            </StSectionContainer>
+        </StHomeSection>
     </>
 );
 

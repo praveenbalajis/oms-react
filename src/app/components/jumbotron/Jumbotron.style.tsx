@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const JumbotronContainer = styled.section`
+export const StJumbotronContainer = styled.section`
 `;
 
-export const JumbotronImage = styled.img`
+export const StJumbotronImage = styled.img`
     width: 100%;
     height: calc(100vh - 80px);
     object-fit: cover;

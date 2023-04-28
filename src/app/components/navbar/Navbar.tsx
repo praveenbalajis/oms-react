@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
-import { LogoImg, NavbarContainer, NavbarElementsContainer } from "./Navbar.style";
+import { StLogoImg, StNavbarContainer, StNavbarElementsContainer } from "./Navbar.style";
 
 const Navbar = (props: any) => {
     return (
-        <NavbarContainer id="navbar">
+        <StNavbarContainer id="navbar">
             <NavLink to="/home">
-                <LogoImg id="logo" src="/pics/logo1.png" alt="logo_img" />
+                <StLogoImg id="logo" src="/pics/logo1.png" alt="logo_img" />
             </NavLink>
-            <NavbarElementsContainer>
-            </NavbarElementsContainer>
-        </NavbarContainer>
+            <StNavbarElementsContainer>
+            </StNavbarElementsContainer>
+        </StNavbarContainer>
     );
 }
 

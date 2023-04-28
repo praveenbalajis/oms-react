@@ -1,9 +1,9 @@
-import { JumbotronContainer, JumbotronImage } from "./Jumbotron.style";
+import { StJumbotronContainer, StJumbotronImage } from "./Jumbotron.style";
 
 const Jumbotron = (props: any) => (
-    <JumbotronContainer>
-        <JumbotronImage src="/pics/image_1.jpg" alt="background" />
-    </JumbotronContainer>
+    <StJumbotronContainer>
+        <StJumbotronImage src="/pics/image_1.jpg" alt="background" />
+    </StJumbotronContainer>
 );
 
 export default Jumbotron;

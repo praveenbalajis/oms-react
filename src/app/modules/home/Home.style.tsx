@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const HomeSection = styled.div`
+export const StHomeSection = styled.div`
     padding: 2rem;
     margin-top: 2rem;
 `;
 
-export const SectionContainer = styled.section`
+export const StSectionContainer = styled.section`
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
         rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
@@ -14,7 +14,7 @@ export const SectionContainer = styled.section`
     margin-bottom: 4rem;
 `;
 
-export const TitleContainer = styled.div`
+export const StTitleContainer = styled.div`
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 10px,
         rgb(51, 51, 51, 0.5) 0px 0px 0px 3px;
     max-width: 55%;
@@ -22,7 +22,7 @@ export const TitleContainer = styled.div`
     padding: 15px;
 `;
 
-const SectionFont = styled.div`
+const StSectionFont = styled.div`
     padding: 0 3rem;
     text-align: center;
     font-family: astronBoy;
@@ -32,18 +32,18 @@ const SectionFont = styled.div`
     -webkit-text-fill-color: transparent;
 `;
 
-export const SectionTitle = styled(SectionFont)`
+export const StSectionTitle = styled(StSectionFont)`
     font-size: 4.5rem;
     font-weight: 600;
 `;
 
-export const SectionSubTitle = styled(SectionFont)`
+export const StSectionSubTitle = styled(StSectionFont)`
     font-size: 2.5rem;
     font-weight: 600;
     margin-top: 1rem;
 `;
 
-export const SectionText = styled.p`
+export const StSectionText = styled.p`
     font-family: "Droid Sans";
     padding: 2rem 10rem;
     font-size: 1.75rem;
@@ -51,7 +51,7 @@ export const SectionText = styled.p`
     text-justify: auto;
 `;
 
-export const CardContainer = styled.div`
+export const StCardContainer = styled.div`
     margin-top: 3rem;
     padding: 2rem;
     display: flex;
@@ -60,7 +60,7 @@ export const CardContainer = styled.div`
     justify-content: space-between;
 `;
 
-export const CardItem = styled.div`
+export const StCardItem = styled.div`
     width: 26%;
     min-height: 250px;
     background-color: white;

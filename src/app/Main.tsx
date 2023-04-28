@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-import { ScrollSection } from "./Main.style";
+import { StScrollSection } from "./Main.style";
 
 const Main = () => {
     const scrollFunction = () => {
@@ -21,9 +21,9 @@ const Main = () => {
     return (
         <>
             <Navbar />
-            <ScrollSection id="main" onScroll={scrollFunction}>
+            <StScrollSection id="main" onScroll={scrollFunction}>
                 <Outlet />
-            </ScrollSection>
+            </StScrollSection>
         </>
     );
 }

@@ -1,9 +1,9 @@
-import { BtnPrimary } from "./PrimaryButton.style";
+import { StBtnPrimary } from "./PrimaryButton.style";
 
 const PrimaryButton = (props: any) => {
     return (
         <>
-            <BtnPrimary onClick={props.onClick}>{props.label}</BtnPrimary>
+            <StBtnPrimary onClick={props.onClick}>{props.label}</StBtnPrimary>
         </>
     );
 }
