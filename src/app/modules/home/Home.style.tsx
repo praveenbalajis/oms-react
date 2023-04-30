@@ -5,44 +5,6 @@ export const StHomeSection = styled.div`
     margin-top: 2rem;
 `;
 
-export const StSectionContainer = styled.section`
-    background-color: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    padding: 2rem 1rem;
-    margin-bottom: 4rem;
-`;
-
-export const StTitleContainer = styled.div`
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px 10px,
-        rgb(51, 51, 51, 0.5) 0px 0px 0px 3px;
-    max-width: 55%;
-    margin: 0 auto;
-    padding: 15px;
-`;
-
-const StSectionFont = styled.div`
-    padding: 0 3rem;
-    text-align: center;
-    font-family: astronBoy;
-    background: linear-gradient(45deg, violet, indigo, blue);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-`;
-
-export const StSectionTitle = styled(StSectionFont)`
-    font-size: 4.5rem;
-    font-weight: 600;
-`;
-
-export const StSectionSubTitle = styled(StSectionFont)`
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-top: 1rem;
-`;
-
 export const StSectionText = styled.p`
     font-family: "Droid Sans";
     padding: 2rem 10rem;
