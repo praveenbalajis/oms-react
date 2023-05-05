@@ -10,19 +10,21 @@ const Main = () => {
         if (mainElement.scrollTop > 80) {
             navbarElement.style.height = "60px";
             logoElement.style.width = "140px";
-            mainElement.style.height = "calc(100vh - 60px)"
+            mainElement.style.height = "calc(100vh - 60px)";
         }
         else {
             navbarElement.style.height = "80px";
             logoElement.style.width = "185px";
-            mainElement.style.height = "calc(100vh - 80px)"
+            mainElement.style.height = "calc(100vh - 80px)";
         }
     }
     return (
         <>
             <Navbar />
             <StScrollSection id="main" onScroll={scrollFunction}>
-                <Outlet />
+                <div className="container">
+                    <Outlet />
+                </div>
             </StScrollSection>
         </>
     );

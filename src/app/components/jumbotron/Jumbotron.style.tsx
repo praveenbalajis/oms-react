@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const StJumbotronContainer = styled.section`
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
 `;
 
 export const StJumbotronImage = styled.img`
