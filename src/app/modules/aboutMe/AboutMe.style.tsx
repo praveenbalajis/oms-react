@@ -20,7 +20,7 @@ export const StPictureContainer = styled(Col).attrs({
 `;
 
 const StPicture = styled.img`
-    height: 450px;
+    height: 70%;
     object-fit: cover;
     object-position: 0% 20%;
     position: absolute;
