@@ -12,7 +12,7 @@ export const StSectionFont = styled.div`
 
 export const StSectionText = styled.p`
     font-family: "Droid Sans";
-    padding: 2rem 10rem;
-    font-size: 1.75rem;
+    padding: 2rem;
+    font-size: 21px;
     text-justify: auto;
 `;

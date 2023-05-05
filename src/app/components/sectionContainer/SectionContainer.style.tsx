@@ -6,5 +6,5 @@ export const StSectionContainer = styled.section`
         rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
         rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     padding: 2rem 1rem;
-    margin-bottom: 4rem;
+    margin-top: 4rem;
 `;
