@@ -5,14 +5,6 @@ export const StHomeSection = styled.div`
     margin-top: 2rem;
 `;
 
-export const StSectionText = styled.p`
-    font-family: "Droid Sans";
-    padding: 2rem 10rem;
-    font-size: 1.75rem;
-    /* text-align: center; */
-    text-justify: auto;
-`;
-
 export const StCardContainer = styled.div`
     margin-top: 3rem;
     padding: 2rem;

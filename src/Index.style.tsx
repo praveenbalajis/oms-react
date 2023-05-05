@@ -9,3 +9,10 @@ export const StSectionFont = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 `;
+
+export const StSectionText = styled.p`
+    font-family: "Droid Sans";
+    padding: 2rem 10rem;
+    font-size: 1.75rem;
+    text-justify: auto;
+`;
