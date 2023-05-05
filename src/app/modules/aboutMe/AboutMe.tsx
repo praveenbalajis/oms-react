@@ -26,7 +26,6 @@ const AboutMe = (props: any) => {
                     <StPictureImage src="/pics/me_1.jpg" alt="My Face" />
                 </StPictureContainer>
             </Row>
-
         </StAboutMeSection>
     );
 }
