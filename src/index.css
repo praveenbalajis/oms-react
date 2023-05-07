@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: whitesmoke;
+  font-family: "Droid Sans" !important;
+  font-size: 21px !important;
 }
 
 code {
