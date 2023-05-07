@@ -8,19 +8,19 @@ export const StAboutMeTextContainer = styled(Col).attrs({
     xs: 12,
     md: 8,
 })`
-    padding: 2.5rem;
+    padding-right: 3rem;
 `;
 
 export const StPictureContainer = styled(Col).attrs({
     xs: 12,
     md: 4,
 })`
-    padding: 6rem 4rem 0rem 1rem;
+    padding: 2rem 0rem;
     position: relative;
 `;
 
 const StPicture = styled.img`
-    height: 70%;
+    height: 80%;
     object-fit: cover;
     object-position: 0% 20%;
     position: absolute;
@@ -31,8 +31,7 @@ export const StPictureImage = styled(StPicture)`
     z-index: 2;
     width: 345px;
     margin: auto;
-    left: 10px;
-    top: 90px;
+    top: 20px;
     filter: opacity(90%);
     transition: transform 100ms;
     &:hover {

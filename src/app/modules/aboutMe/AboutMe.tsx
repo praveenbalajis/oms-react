@@ -1,14 +1,14 @@
-import { Row } from "react-bootstrap";
 import { StSectionText } from "../../../Index.style";
 import SectionHeader from "../../components/sectionHeader/SectionHeader";
 import { StAboutMeSection, StAboutMeTextContainer, StPictureContainer, StPictureImage, StPictureImageShadow } from "./AboutMe.style";
+import SectionContent from "../../components/sectionContent/SectionContent";
 
 const AboutMe = (props: any) => {
     let numOfYrsOfExp = new Date().getFullYear() - 2020;
     return (
         <StAboutMeSection>
             <SectionHeader header={"About me"} />
-            <Row>
+            <SectionContent>
                 <StAboutMeTextContainer>
                     <StSectionText>
                         <ul>
@@ -32,7 +32,7 @@ const AboutMe = (props: any) => {
                     <StPictureImageShadow src="/pics/me_1.jpg" alt="My Face" />
                     <StPictureImage src="/pics/me_1.jpg" alt="My Face" />
                 </StPictureContainer>
-            </Row>
+            </SectionContent>
         </StAboutMeSection>
     );
 }
