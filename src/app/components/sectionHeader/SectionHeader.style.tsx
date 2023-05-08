@@ -7,7 +7,7 @@ export const StSectionHeaderContainer = styled.div`
     min-width: 55%;
     max-width: fit-content;
     margin: 0 auto;
-    padding: 15px;
+    padding: 15px 15px 5px;
 `;
 
 export const StSectionHeader = styled(StSectionFont)`

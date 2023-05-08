@@ -24,3 +24,19 @@ code {
   font-family: 'astronBoy';
   src: url('/public/fonts/astron-boy/astron\ boy.otf');
 }
+
+li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 20px;
+}
+
+li::before {
+  content: "◆";
+  position: absolute;
+  color: rgb(85, 60, 168);
+  left: -10px;
+  top: 0px;
+  width: 0;
+  height: 0;
+}
