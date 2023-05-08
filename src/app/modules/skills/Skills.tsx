@@ -13,7 +13,7 @@ const Skills = (props: any) => {
             },
             {
                 categoryHeader: "Frameworks/Libraries",
-                categoryItems: ["Angular", "React", "Node.js + Sequelize (ORM)", "Spring Boot + JPA", "Ionic + Cordova", "Cypress - E2E Testing Framework"]
+                categoryItems: ["Angular", "React", "Node.js + Sequelize (ORM)", "Spring Boot + JPA", "Ionic + Cordova", "Cypress - E2E Testing"]
             },
             {
                 categoryHeader: "Tools of the Trade",
